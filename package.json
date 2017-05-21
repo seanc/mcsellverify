@@ -1,0 +1,30 @@
+{
+  "name": "mcsellverify",
+  "description": "MCSell discord verification bot",
+  "version": "0.1.0",
+  "homepage": "https://github.com/seanc/mcsellverify",
+  "author": "Sean Wilson (https://imsean.me)",
+  "repository": "seanc/mcsellverify",
+  "bugs": {
+    "url": "https://github.com/seanc/mcsellverify/issues"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "generategenerator"
+  ],
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "cloudscraper": "^1.4.1",
+    "discord.js": "^11.1.0",
+    "shortid": "^2.2.8"
+  }
+}

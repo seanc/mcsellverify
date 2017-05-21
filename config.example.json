@@ -1,0 +1,8 @@
+{
+  "token": "discord bot token",
+  "roleMap": {
+    "name of rank on mcsell": "discord role id",
+    "VIP": "role id",
+    "Emerald": "role id"
+  }
+}
