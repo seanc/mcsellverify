@@ -40,7 +40,9 @@ bot.on('message', message => {
                 message.member.addRole(role).catch(console.log)
               }
             })
-            _message.edit('Verified!')
+            _message.edit('Verified!').then(() => {
+              cache.forEach((user, index) => user.id === message.author.id ? cache.splice(index, 1) : null)
+            })
           }
         })
       })
