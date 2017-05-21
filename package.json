@@ -10,17 +10,15 @@
   },
   "license": "MIT",
   "files": [
-    "LICENSE"
+    "LICENSE",
+    "index.js"
   ],
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=6"
   },
   "scripts": {
-    "test": "mocha"
+    "start": "node index.js"
   },
-  "keywords": [
-    "generategenerator"
-  ],
   "dependencies": {
     "cheerio": "^0.22.0",
     "cloudscraper": "^1.4.1",
