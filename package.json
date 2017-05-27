@@ -23,6 +23,7 @@
     "cheerio": "^0.22.0",
     "cloudscraper": "^1.4.1",
     "discord.js": "^11.1.0",
+    "lowdb": "^0.16.2",
     "shortid": "^2.2.8"
   }
 }
